@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+#botones{
+    width: 100%; 
+    min-height: 100vh;
+    text-align: center;
+    padding: 100px 0px;
+    background: url("../img/ahmed-adly-1PtM6b85sdw-unsplash.jpg");
+    background-size: cover;
+
+}
+
+#botones button {
+    font-family: 'Roboto Mono', monospace;
+
+    padding: 14px 30px;
+    background: transparent;
+    border: 2px solid #fff;
+    color: rgb(64, 43, 226);
+    font-size: 22px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    margin: 15px;
+    transition: .5s;
+}
+#botones h1{
+    color: blueviolet;
+    font-size: 35px;
+}
+
+body { font-family: 'Roboto Mono', monospace;
+    
+}
+
+#botones button:hover{
+    background: #fff;
+    color: black;
+    padding: 14px 30px;
+}
+
+
+
+
+
+/* Estilos ejercicio figura */
+
+#contprincipal{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background: #000;
+}
+
+#contprincipal #botones{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid rgb(255, 255, 255);
+    color: blueviolet;
+}
+
+#contprincipal #contfigure{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #fff;
+    color: blueviolet;
+}
+
+#figura{
+    width: 200px;
+    height: 200px;
+    background: #fff;
+    margin: 40px auto;
+    transition: .5s;
+}
+
+#figura.Circulo{
+    border-radius: 50%;
+    transition: .5s;
+}
+#figura.Rectangulo{
+    width: 400px;
+    transition: .5s;
+}
+#figura.Rombo{
+    transform: rotate(45deg);
+    transition: .5s;
+}
+#figura.Gif{
+    background: url("../img/war-metal-slug.gif");
+    background-size: cover;
+    transition: .5s;
+}
+#figura.Izquierda{
+    transition: .5s;
+    transform: translateX(-200px);  
+}
+#figura.Derecha{
+    transition: .5s;
+    transform: translateX(200px);
+}
+#figura.Arriba{
+    transition: .5s;
+    transform: translateY(-200px);
+}
+#figura.Abajo{
+    transition: .5s;
+    transform: translateY(200px);
+}
+#figura.Diagonal{
+    transition: .5s;
+    transform: translate(200px,200px);
+}
+
+#texto1{
+    color: blueviolet;
+}
